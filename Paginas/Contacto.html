@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <!-- Meta Tags para SEO -->
+    <meta name="description" content="Contactanos a traves de esta pagina escribiendo tu gmail!" />
+    <meta name="keywords" content="Duki, trap, música, contacto" />
+    <!-- Script de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- Enlaces a hojas de estilo y otros recursos -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="icon" href="../Multimedia/duki_logo.jfif">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Css/estilo.css">
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../Multimedia/duki_logo.jfif" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link" href="Discorgrafia.html">Discografía</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link" href="Galeria.html">Galería</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link" href="Historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item mx-auto">
+                            <a class="nav-link" href="Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-contacto">
+        <h1 class="main-contacto__titulo">¡Contáctanos!</h1>
+    </main>
+
+    <div class="contenedor-formulario">
+        <section class="formulario">
+            <!-- Formulario -->
+            <form action="" method="get">
+                <label for="nombre">Nombre de usuario:</label>
+                <input type="text" required name="nombre">
+
+                <br>
+
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" required name="mail">
+
+                <br>
+
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" required name="contrasena">
+
+                <br>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" cols="30" rows="10"></textarea>
+
+                <br>
+
+                <!-- Botones -->
+                <input type="submit" name="boton" value="Enviar este formulario">
+                <input type="reset" name="boton2" value="Restablecer datos">
+            </form>
+        </section>
+    </div>
+
+    <footer class="pie-de-pagina__contacto">
+        <!-- Redes sociales -->
+        <section class="pie-de-pagina__redes-sociales">
+            <a href="https://www.youtube.com/channel/UCJUYcEdvnYFGajHBW0Nao3w" target="_blank"><img src="../Multimedia/youtube.png" alt="YouTube"></a>
+            <a href="https://www.instagram.com/duki/" target="_blank"><img src="../Multimedia/instagram.png" alt="Instagram"></a>
+            <a href="https://twitter.com/DukiSSJ?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="../Multimedia/twitter.png" alt="Twitter"></a>
+            <a href="https://open.spotify.com/intl-es/artist/1bAftSH8umNcGZ0uyV7LMg" target="_blank"><img src="../Multimedia/spotify.png" alt="Spotify"></a>
+            <a href="https://www.tiktok.com/@duki?lang=es" target="_blank"><img src="../Multimedia/tiktoklogo.png" alt="TikTok"></a>
+        </section>
+
+        <aside class="pie-de-pagina__derechos">
+            <p class="pie-de-pagina__derechos__texto">Todos los derechos reservados</p>
+        </aside>
+    </footer>
+</body>
+</html>
